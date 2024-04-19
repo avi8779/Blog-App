@@ -2,7 +2,9 @@
 
 PWSkills Blog is a web application built with HTML, CSS, and JavaScript that allows users to create and read blog posts.
 
-<img width="959" alt="main page" src="https://github.com/avi8779/Blog-App/assets/123002279/035b86be-824f-4b67-a823-bb597b80ccd8">
+
+![Main Page](https://github.com/avi8779/Blog-App/assets/123002279/035b86be-824f-4b67-a823-bb597b80ccd8)
+
 
 ## Features
 - Add new blog posts with titles, authors, descriptions, and content.
@@ -10,7 +12,7 @@ PWSkills Blog is a web application built with HTML, CSS, and JavaScript that all
 - Click on a blog post to view its full content on a separate page.
 - Responsive design for various screen sizes (optional).
 
-<img width="959" alt="Open model Page" src="https://github.com/avi8779/Blog-App/assets/123002279/3d5839b2-8afc-4a5c-adfc-2d09c2fb82f8">
+![Main Page](https://github.com/avi8779/Blog-App/assets/123002279/3d5839b2-8afc-4a5c-adfc-2d09c2fb82f8)
 
 
 ## Technologies Used
