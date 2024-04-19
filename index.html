@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/553e3e29ad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="app">
+        <div class="heading">
+            <h1>PWSkills Blog</h1>
+            <i class="fa-solid fa-plus" id="open-model"></i>
+        </div> 
+
+        <!-- Add a modal container to the HTML -->
+        <div id="myModal" class="modal-box">
+            <div class="modal-content">
+                <div id="posts-list"></div>
+                <div id="modal-content"></div>
+            </div>
+        </div>  
+    </div>
+
+    <div class="model" id="model">
+        <i class="fa-solid fa-xmark" id="close"></i>
+        <form action="" class="form-container" id="blog-posts">
+            
+            <input type="file" required id="image-input" placeholder="Enter Blog Post Image" accept="image/*">
+            <input type="text" aria-required="true" id="blogTitle-input" placeholder="Enter Blog title" required>
+            <input type="text" id="blog-description" placeholder="Enter Blog Description" required>
+            <textarea id="blog-input" placeholder="Write..." required rows="10" cols="50"></textarea>
+            <button id="addBlogPostButtonId" onclick="addBlogPost()">Add Blog</button>
+        </form>
+    </div>
+
+    <script src="./app.js"></script>
+
+</body>
+</html>

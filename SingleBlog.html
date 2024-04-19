@@ -1,0 +1,33 @@
+<!-- SingleBlog.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="post-title"></h1>
+        <p id="post-description"></p>
+        <p id="post-content"></p>
+        <img id="post-image" src="" alt="Post Image">
+    </div>
+
+    <script src="./app.js"></script>
+    <script>
+        // Retrieve the selected post data from localStorage
+        const selectedPost = JSON.parse(localStorage.getItem("selectedPost"));
+        // Populate the details on the page
+        document.getElementById('post-title').textContent = selectedPost.blogTitle;
+        document.getElementById('post-description').textContent = selectedPost.blogDescription;
+        document.getElementById('post-content').textContent = selectedPost.content;
+        if (selectedPost.image) {
+            document.getElementById('post-image').setAttribute('src', selectedPost.image);
+        } else {
+            document.getElementById('post-image').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
