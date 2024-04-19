@@ -12,7 +12,7 @@ PWSkills Blog is a web application built with HTML, CSS, and JavaScript that all
 - Click on a blog post to view its full content on a separate page.
 - Responsive design for various screen sizes (optional).
 
-![Main Page](https://github.com/avi8779/Blog-App/assets/123002279/3d5839b2-8afc-4a5c-adfc-2d09c2fb82f8)
+![Model Page](https://github.com/avi8779/Blog-App/assets/123002279/3d5839b2-8afc-4a5c-adfc-2d09c2fb82f8)
 
 
 ## Technologies Used
